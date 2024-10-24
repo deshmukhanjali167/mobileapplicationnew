@@ -30,6 +30,9 @@
     font-size: 9px;
 }
 
+.techfont{
+    font-size: 16px;
+}
 
 .pie-chart {
     width: 60px;
@@ -206,6 +209,9 @@
         height: 100vh;
     }
 
+    .techfont{
+        font-size: 17px;
+    }
     .wrapper {
         border: none;
         padding: 8px;
