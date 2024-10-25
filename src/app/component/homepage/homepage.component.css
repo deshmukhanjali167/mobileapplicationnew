@@ -11,8 +11,6 @@
     height: 100vh;
 }
 
-
-
 .font_size {
     font-size: 12px;
 }
@@ -46,7 +44,6 @@
     .wrapper {
         border: none;
     }
-
     .mobile-shape {
         border: none;
         width: 0px;
@@ -61,7 +58,6 @@
     .main-wrapper {
         width: 375px;
     }
-
     .wrapper {
         border: none;
         padding: 6px;
@@ -82,15 +78,13 @@
 @media only screen and (min-width: 420px) {
     .main-wrapper {
         width: 420px;
-
     }
-
     .wrapper {
         border: none;
-        padding: 8px;
+        padding-right: 8px;
+        padding-left: 8px;
         height: 100vh;
     }
-
     .mobile-shape {
         border: none;
         width: 0px;
@@ -105,8 +99,6 @@
 @media only screen and (min-width: 768px) {
     .main-wrapper {
         width: 768px;
-
-
     }
 
     .wrapper {
@@ -128,9 +120,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-
-
-
     .main-wrapper {
         width: 320px;
         position: relative;
@@ -168,7 +157,6 @@
 @media only screen and (min-width: 1200px) {
     .main-wrapper {
         width: 320px;
-
     }
 
     .wrapper {
@@ -194,7 +182,6 @@
 @media only screen and (min-width: 1349px) {
     .main-wrapper {
         width: 320px;
-
     }
 
     .wrapper {

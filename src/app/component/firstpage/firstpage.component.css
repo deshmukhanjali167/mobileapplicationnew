@@ -251,12 +251,14 @@
         width: 320px;
         height: 100vh;
 
+
     }
 
     .wrapper {
         border-radius: 32px;
         border: 12px solid black;
         height: 100vh;
+        margin-top: 20px;
     }
     .mobile-shape {
         border-radius: 50px;
@@ -316,6 +318,7 @@
         border-radius: 32px;
         border: 12px solid black;
         height: 100vh;
+        margin-top: 20px;
     }
     .mobile-shape {
         border-radius: 50px;
