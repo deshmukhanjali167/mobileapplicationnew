@@ -91,9 +91,9 @@
 
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 425px) {
     .main-wrapper {
-        width: 420px;
+        width: 425px;
     }
     .wrapper {
         border: none;
