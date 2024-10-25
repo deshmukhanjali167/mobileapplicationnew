@@ -178,6 +178,13 @@
         left: none;
         background-color: none;
     }
+    .review {
+        position: absolute;   
+        bottom: 80px;          
+        left: 50%;          
+        transform: translateX(-50%); 
+        width: 100%;
+    }
 
 }
 
@@ -200,6 +207,14 @@
         left: none;
         background-color: none;
     }
+    .review {
+        position: absolute;   
+        bottom: 80px;          
+        left: 50%;          
+        transform: translateX(-50%); 
+        width: 100%;
+    }
+
 
 }
 
@@ -212,6 +227,14 @@
     .techfont{
         font-size: 17px;
     }
+    .review {
+        position: absolute;   
+        bottom: 80px;          
+        left: 50%;          
+        transform: translateX(-50%); 
+        width: 100%;
+    }
+
     .wrapper {
         border: none;
         padding: 8px;
