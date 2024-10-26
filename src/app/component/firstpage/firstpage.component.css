@@ -18,13 +18,16 @@
     min-height: -webkit-fill-available;
     ;
 }
-
+.lastbtn{
+    padding-top: 77px;
+}
 .review {
     position: absolute;
     bottom: 6px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    margin-top: 50px;
 }
 
 .font_size {
@@ -193,10 +196,11 @@
 
     .review {
         position: absolute;
-        bottom: 0px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
+        margin-top: 50px;
     }
 
 
@@ -227,10 +231,11 @@
 
     .review {
         position: absolute;
-        bottom: 0px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
+        margin-top: 50px;
     }
 
 
@@ -266,10 +271,11 @@
 
     .review {
         position: absolute;
-        bottom: 0px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
+        margin-top: 50px;
     }
 }
 
@@ -327,10 +333,11 @@
 
     .review {
         position: absolute;
-        bottom: 0px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 80%;
+        margin-top: 50px;
     }
 }
 
@@ -362,10 +369,11 @@
 
     .review {
         position: absolute;
-        bottom: 0px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
+        margin-top: 50px;
     }
 
 
@@ -401,9 +409,10 @@
 
     .review {
         position: absolute;
-        bottom: 0px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 80%;
+        margin-top: 50px;
     }
 }
