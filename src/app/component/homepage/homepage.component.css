@@ -92,9 +92,7 @@
 
         min-height: 100%;
     }
-    .lastbtn {
-        padding-top: 40%;
-    }
+  
     
     .startdemo {
         position: absolute;
@@ -113,7 +111,7 @@
         background-color: none;
     }
     .lastbtn {
-        padding-top: 40%;
+        padding-top: 60%;
     }
 
 }
@@ -147,7 +145,7 @@
         background-color: none;
     }
     .lastbtn {
-        padding-top: 40%;
+        padding-top: 70%;
     }
     
 
