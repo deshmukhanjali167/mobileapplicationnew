@@ -183,7 +183,7 @@
 
     .review {
         position: absolute;
-        bottom: 80px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
@@ -215,7 +215,7 @@
 
     .review {
         position: absolute;
-        bottom: 80px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
@@ -252,7 +252,7 @@
 
     .review {
         position: absolute;
-        bottom: 80px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
@@ -302,7 +302,13 @@
         left: 66px;
         background-color: black;
     }
-
+    .review {
+        position: absolute;
+        bottom: 6px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -326,6 +332,13 @@
         top: -11px;
         left: 66px;
         background-color: black;
+    }
+    .review {
+        position: absolute;
+        bottom: 6px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
     }
 
 
@@ -357,7 +370,7 @@
 
     .review {
         position: absolute;
-        bottom: 27px;
+        bottom: 6px;
         left: 50%;
         transform: translateX(-50%);
         width: 80%;
