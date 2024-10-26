@@ -19,10 +19,7 @@
 .mini_font {
     font-size: 9px;
 }
-.imgsize{
-    width: 246px;
-    height: 180px;
-}
+
 .startdemo{
     position: absolute;   
     bottom: 6px;          
@@ -43,7 +40,10 @@
     background-color: black;
 }
 
-
+.imgsize{
+    max-width: 100%;
+    height: auto;
+}
 @media only screen and (min-width: 320px) {
     .wrapper {
         border: none;
@@ -111,7 +111,7 @@ min-height: 100vh;
         bottom: 20px;          
         left: 50%;          
         transform: translateX(-50%); 
-        width:100%;
+        width: 90%;
     }
     .mobile-shape {
         border: none;
@@ -145,10 +145,7 @@ min-height: 100vh;
         left: none;
         background-color: none;
     }
-    /* .imgsize{
-        width: 667px;
-        height: 266px;
-    } */
+ 
 }
 
 @media only screen and (min-width: 1024px) {
@@ -162,15 +159,15 @@ min-height: 100vh;
         position: relative;
         border-radius: 32px;
         border: 12px solid black;
-        margin-top: 50px;
         padding: 10px;
-min-height: 100vh; 
+        min-height: calc(100vh - 60px)
 
     }
     .startdemo{
         position: absolute;    /* Equivalent to `position-absolute` */
         bottom: 20px;             /* Equivalent to `bottom-0` */
-        left: 50%;             /* Equivalent to `start-50` */
+        left: 50%;        
+        width: 90%;     /* Equivalent to `start-50` */
         transform: translateX(-50%); /* Equivalent to `translate-middle-x` */
     }
 
@@ -184,16 +181,14 @@ min-height: 100vh;
         left: 66px;
         background-color: black;
     }
-    /* .imgsize{
-        width: 246px;
-        height: 180px;
-    } */
+
     .startdemo{
         position: absolute;  
         width: 80%; 
         bottom: 40px;          
         left: 50%;          
         transform: translateX(-50%); 
+        width: 90%;
     }
 }
 
@@ -220,10 +215,7 @@ min-height: 100vh;
         left: 66px;
         background-color: black;
     }
-    /* .imgsize{
-        width: 246px;
-        height: 180px;
-    } */
+  
     .startdemo{
         position: absolute;  
         width: 80%; 
@@ -263,8 +255,5 @@ min-height: 100vh;
         left: 50%;          
         transform: translateX(-50%); 
     }
-    /* .imgsize{
-        width: 246px;
-        height: 180px;
-    } */
+  
 }
