@@ -246,6 +246,9 @@
 @media only screen and (min-width: 1349px) {
     .main-wrapper {
         width: 320px;
+        height: 100%;
+        min-height: -webkit-fill-available;
+        ;
     }
     .wrapper {
         position: relative;
@@ -253,6 +256,7 @@
         border-radius: 32px;
         border: 12px solid black;
         min-height: 100%;
+        min-height: -webkit-fill-available;
     }
     .mobile-shape {
         position: absolute;
