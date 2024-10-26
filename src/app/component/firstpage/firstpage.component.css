@@ -224,6 +224,9 @@
         left: none;
         background-color: none;
     }
+    .lastbtn {
+        padding-top: 40%;
+    }
 
     .review {
         position: absolute;
